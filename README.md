@@ -1,7 +1,7 @@
 # react-redux-login-flow
 A simple user registration and authentication application on react, redux and Node API
 
-**Getting started
+# Getting started
 
 - Clone this repo using git clone `https://github.com/mukeshrawat02/react-redux-login-flow.git`
 - `cd react-redux-login-flow`
