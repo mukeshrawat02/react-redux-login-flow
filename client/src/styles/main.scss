@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi|Open+Sans');
+@import 'header';
+
+$fontSize_14: 14px;
+$fontSize_16: 16px;
+$fontSize_20: 20px;
+$fontSize_26: 26px;
+$bgCommon: #02C6C6;
+$fontBaloo: 'Baloo Thambi', cursive;
+$fontOpenSans: 'Open Sans', sans-serif;
+
+
+body {
+    font-size: $fontSize_14;
+    line-height: 1.8;
+    color: #818181;
+    background-color:white;
+    font-family: $fontOpenSans;
+}
+
+.logo-container {
+    font-family: $fontBaloo;
+    font-size: $fontSize_26;
+    color: $colDefault;
+}
+
+.jumbotron {
+  background-color: $bgCommon;
+  color: #ffffff;
+  font-family: $fontOpenSans;
+
+  p {
+    font-size: $fontSize_16;
+  }
+}
+
+.error {
+  color: #A94442;
+  font-weight: 100;
+}
+
+.welcome-user {
+  font-family: $fontBaloo;
+  font-size: $fontSize_14;
+  font-weight: bolder;
+  color: $colHighlight;
+  line-height: 50px;
+  padding-left: 15px;
+}
+
+.mainbox {
+    margin-top: 100px;
+}
+
+.margin12{
+    margin: 12;
+}
+
+.heading{
+    color: $bgCommon;
+    font-size: $fontSize_26;
+    font-family: $fontBaloo;
+}
+
+.subheading{
+    @extend .heading;
+    font-size: $fontSize_16;
+    font-family: $fontOpenSans;
+}
+
+.footer {
+    position: fixed;
+    height: 30px;
+    bottom: 0;
+    width: 100%;
+    font-size: $fontSize_14;
+    font-family: $fontOpenSans;
+    padding: 5px 0;
+    background-color: $bgDefault;
+    color: $colDefault;
+}
+
+.card-shadow {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  padding-bottom: 10px;
+}
