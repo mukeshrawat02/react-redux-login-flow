@@ -1,0 +1,38 @@
+{
+  "name": "react-profile-app-server",
+  "version": "1.0.0",
+  "description": "A simple user registration and authentication server",
+  "main": "server.js",
+  "scripts": {
+    "start": "gulp dev",
+    "test": "gulp test"
+  },
+  "engines": {
+    "node": "7.3.0"
+  },
+  "keywords": [],
+  "author": "Mukesh Rawat",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "*",
+    "body-parser": "*",
+    "cors": "^2.8.1",
+    "express": "*",
+    "gulp": "*",
+    "gulp-nodemon": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "morgan": "*"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "gulp-jshint": "*",
+    "gulp-mocha": "*",
+    "gulp-util": "*",
+    "jshint": "*",
+    "jshint-stylish": "*",
+    "mocha": "*",
+    "sinon": "*",
+    "supertest": "^2.0.1"
+  }
+}
