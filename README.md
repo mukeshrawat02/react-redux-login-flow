@@ -18,7 +18,7 @@ A simple user registration and authentication application on react, redux and No
 - Run `npm start` to start the local web server.
 - Server should be running on `http://localhost:9000`
 
-# To-do
+## To-do
 - Add and complete unit test cases
 - Add integration test scenarios
 - Better test coverage
