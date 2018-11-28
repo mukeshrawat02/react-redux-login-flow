@@ -26,18 +26,18 @@ A simple user registration and authentication application on react, redux and No
 
 ## Screenshots
 
-###Home Page
+### Home Page
 
 ![Alt text](/screens/HomePage.PNG?raw=true "Home Page")
 
-###Signin Page
+### Signin Page
 
 ![Alt text](/screens/SigninPage.PNG?raw=true "Signin Page")
 
-###Signup Page
+### Signup Page
 
 ![Alt text](/screens/SignupPage.PNG?raw=true "Signup Page")
 
-###Dashboard
+### Dashboard
 
 ![Alt text](/screens/DashboardPage.PNG?raw=true "Dashboard")
